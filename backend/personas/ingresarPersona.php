@@ -27,8 +27,6 @@ echo $txtFecha_nacimiento;
             $resultado = @move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta); 
    
    
-
-
 $conn = new Conexion();
 $llamarMetodo = $conn->Conectar();
 
@@ -44,3 +42,6 @@ $stmt->execute();
 
 }
  ?>
+
+ 
+
